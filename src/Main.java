@@ -10,7 +10,7 @@ public class Main {
         int max = 0;
         String maxword = "";
         try {
-            File f = new File("D:\\test1.txt");
+            File f = new File("test1.txt");
             Scanner sc = new Scanner(f);
             while (sc.hasNext()){
                 String word = sc.useDelimiter("\\s+").next();
